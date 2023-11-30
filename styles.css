@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #800000; /* Cabeçalho vermelho escuro */
+    color: #882424;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Centralizar o conteúdo da página */
+}
+
+.featured-books,
+.all-books {
+    text-align: center; /* Centralizar o texto dentro das seções */
+}
+
+.book {
+    display: inline-block;
+    text-align: left; /* Alinhar o texto do livro à esquerda */
+    margin: 20px;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-details {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #800000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-details:hover {
+    background-color: #600000;
+}
+
+footer {
+    background-color: #800000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
